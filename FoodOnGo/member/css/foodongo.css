@@ -1,0 +1,75 @@
+﻿.textboxReg{
+    background:none;
+    border:none;
+    color:white;
+    width:100%;
+    border-bottom:1px solid white;
+    text-align:center;
+}
+.ddlReg{
+    background:none;
+    border:none;
+    color:white;
+    width:100%;
+    border-bottom:1px solid white;
+    text-align:center;
+}
+.lblReg {
+    background: none;
+    border:none;
+    color: white;
+    position:absolute;
+    
+    text-decoration:none;
+    text-align: center;
+}
+.btnReg {
+    background: white;
+    border:1px solid white;
+    color: black;
+    position:absolute;
+    margin-bottom:10px;
+    text-decoration:none;
+    text-align: center;
+}
+    .btnReg:hover {
+        background: black;
+        border: 1px solid white;
+        box-shadow: #000000 0 0 inset;
+    }
+.pos1 {
+    padding-left: 120px;
+}
+.pos2 {
+    padding-left: 55px;
+}
+.textboxReg:focus{
+    border:0px solid black;
+    box-shadow:#000000 0 0 inset;
+}
+.textboxReg::Placeholder {
+    color:white;
+    text-align:center;
+    }
+.ddlReg::Placeholder {
+    color:white;
+    text-align:left;
+    }
+.left{
+    text-align:left;
+}
+.middle {
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left::Placeholder {
+    text-align: left;
+}
+.middle::Placeholder {
+    text-align: center;
+}
+.right::Placeholder {
+    text-align: right;
+}

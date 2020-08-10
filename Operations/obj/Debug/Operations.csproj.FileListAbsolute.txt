@@ -1,0 +1,12 @@
+C:\Users\Keval\source\repos\FoodOnGo\Operations\bin\Debug\Operations.dll
+C:\Users\Keval\source\repos\FoodOnGo\Operations\bin\Debug\Operations.pdb
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Debug\Operations.csprojAssemblyReference.cache
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Debug\Operations.csproj.CoreCompileInputs.cache
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Debug\Operations.dll
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Debug\Operations.pdb
+E:\Soft\FoodOnGo(4-6-2019)\FoodOnGo\Operations\bin\Debug\Operations.dll
+E:\Soft\FoodOnGo(4-6-2019)\FoodOnGo\Operations\bin\Debug\Operations.pdb
+E:\Soft\FoodOnGo(4-6-2019)\FoodOnGo\Operations\obj\Debug\Operations.csprojAssemblyReference.cache
+E:\Soft\FoodOnGo(4-6-2019)\FoodOnGo\Operations\obj\Debug\Operations.csproj.CoreCompileInputs.cache
+E:\Soft\FoodOnGo(4-6-2019)\FoodOnGo\Operations\obj\Debug\Operations.dll
+E:\Soft\FoodOnGo(4-6-2019)\FoodOnGo\Operations\obj\Debug\Operations.pdb

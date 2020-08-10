@@ -1,0 +1,335 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.Master.cs" Inherits="FoodOnGo.admin.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--js-->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!--icons-css-->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href='//fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
+    <!--//skycons-icons-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="page-container">
+                <div class="left-content">
+                    <div class="mother-grid-inner">
+                        <!--header start here-->
+                        <div class="header-main" style="margin-top: auto; padding-top: 5px">
+                            <div class="header-left">
+                                <div class="logo-name">
+                                    <a href="home.aspx">
+                                        <div>
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <img id="" src="FOG.png" height="48" width="48" alt="Logo">
+                                                    </td>
+                                                    <td>
+                                                        <b style="font-size: 30px;">FOG</b>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="header-right">
+                                <div class="profile_details_left">
+                                    <!--notifications of menu start -->
+                                    <ul class="nofitications-dropdown">
+                                        <li class="dropdown head-dpdn">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-envelope"></i><span class="badge">3</span></a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="notification_header">
+                                                        <h3>You have 3 new messages</h3>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">
+                                                    <div class="user_img">
+                                                        <img src="images/p4.png" alt="">
+                                                    </div>
+                                                    <div class="notification_desc">
+                                                        <p>Lorem ipsum dolor</p>
+                                                        <p><span>1 hour ago</span></p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></li>
+                                                <li class="odd"><a href="#">
+                                                    <div class="user_img">
+                                                        <img src="images/p2.png" alt="">
+                                                    </div>
+                                                    <div class="notification_desc">
+                                                        <p>Lorem ipsum dolor </p>
+                                                        <p><span>1 hour ago</span></p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <div class="user_img">
+                                                        <img src="images/p3.png" alt="">
+                                                    </div>
+                                                    <div class="notification_desc">
+                                                        <p>Lorem ipsum dolor</p>
+                                                        <p><span>1 hour ago</span></p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></li>
+                                                <li>
+                                                    <div class="notification_bottom">
+                                                        <a href="#">See all messages</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown head-dpdn">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">3</span></a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="notification_header">
+                                                        <h3>You have 3 new notification</h3>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">
+                                                    <div class="user_img">
+                                                        <img src="images/p5.png" alt="">
+                                                    </div>
+                                                    <div class="notification_desc">
+                                                        <p>Lorem ipsum dolor</p>
+                                                        <p><span>1 hour ago</span></p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></li>
+                                                <li class="odd"><a href="#">
+                                                    <div class="user_img">
+                                                        <img src="images/p6.png" alt="">
+                                                    </div>
+                                                    <div class="notification_desc">
+                                                        <p>Lorem ipsum dolor</p>
+                                                        <p><span>1 hour ago</span></p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <div class="user_img">
+                                                        <img src="images/p7.png" alt="">
+                                                    </div>
+                                                    <div class="notification_desc">
+                                                        <p>Lorem ipsum dolor</p>
+                                                        <p><span>1 hour ago</span></p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </a></li>
+                                                <li>
+                                                    <div class="notification_bottom">
+                                                        <a href="#">See all notifications</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown head-dpdn">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue1">9</span></a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="notification_header">
+                                                        <h3>You have 8 pending task</h3>
+                                                    </div>
+                                                </li>
+                                                <li><a href="#">
+                                                    <div class="task-info">
+                                                        <span class="task-desc">Database update</span><span class="percentage">40%</span>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="progress progress-striped active">
+                                                        <div class="bar yellow" style="width: 40%;"></div>
+                                                    </div>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <div class="task-info">
+                                                        <span class="task-desc">Dashboard done</span><span class="percentage">90%</span>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="progress progress-striped active">
+                                                        <div class="bar green" style="width: 90%;"></div>
+                                                    </div>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <div class="task-info">
+                                                        <span class="task-desc">Mobile App</span><span class="percentage">33%</span>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="progress progress-striped active">
+                                                        <div class="bar red" style="width: 33%;"></div>
+                                                    </div>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <div class="task-info">
+                                                        <span class="task-desc">Issues fixed</span><span class="percentage">80%</span>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <div class="progress progress-striped active">
+                                                        <div class="bar  blue" style="width: 80%;"></div>
+                                                    </div>
+                                                </a></li>
+                                                <li>
+                                                    <div class="notification_bottom">
+                                                        <a href="#">See all pending tasks</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <!--notification menu end -->
+                                <div class="profile_details">
+                                    <ul>
+                                        <li class="dropdown profile_details_drop">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                <div class="profile_img">
+                                                    <span class="prfil-img">
+                                                        <img src="images/p1.png" width="40px" height="40px" alt="">
+                                                    </span>
+                                                    <div class="user-name">
+                                                        <p><asp:Label ID="lblUserName" runat="server" Style="font-weight:bold;color:gold;font-size:medium"></asp:Label></p>
+                                                        <span>
+                                                            <asp:Label ID="lblUserLogin" runat="server" style="font-size:11px"></asp:Label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--heder end here-->
+                        <!-- script-for sticky-nav -->
+                        <script>
+                            $(document).ready(function () {
+                                var navoffeset = $(".header-main").offset().top;
+                                $(window).scroll(function () {
+                                    var scrollpos = $(window).scrollTop();
+                                    if (scrollpos >= navoffeset) {
+                                        $(".header-main").addClass("fixed");
+                                    } else {
+                                        $(".header-main").removeClass("fixed");
+                                    }
+                                });
+
+                            });
+                        </script>
+                        <!-- /script-for sticky-nav -->
+                        <!--inner block start here-->
+                        <div class="inner-block img-responsive col-sm-12" style="background-image: url(images/100.jpg); background-size: contain;">
+                            <div class="row">
+                                <div class="col-sm-1"></div>
+                                <div class="blank col-sm-10">
+                                    <div>
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1"></div>
+                            </div>
+                            <div class="row"></div>
+                        </div>
+                        <!--inner block end here-->
+                        <!--Footer start here-->
+                        <div class="copyrights">
+                            <p>2019 FoodOnGo. | A Creative Caterer Service For Your Hunger Rush</p>
+                        </div>
+                        <!--Footer end here-->
+                    </div>
+                </div>
+                <!--slider menu-->
+                <div class="sidebar-menu">
+                    <%--<span id="logo"><img id="logo" src="FOG.png" height="64px" style="margin-left:20px;margin-top:10px;" alt="Logo"></span>--%>
+                    <div class="logo">
+                        <a href="#" class="sidebar-icon"><span class="fa fa-bars"></span></a><a href="#"></a>
+                    </div>
+                    <div class="menu">
+                        <ul id="menu">
+                            <li id="menu-home"><a href="home.aspx"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
+                            <li>
+                                <a href="#"><i class="fa fa-book nav_icon"></i><span>Forms</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                                <ul>
+
+                                    <li><a href="State.aspx">State</a></li>
+                                    <li><a href="City.aspx">City</a></li>
+                                    <li><a href="Category.aspx">Category</a></li>
+                                    <li><a href="SubCategory.aspx">Sub-Category</a></li>
+                                    <li><a href="Items.aspx">Items</a></li>
+                                    <li><a href="Train.aspx">Train</a></li>
+                                    <li><a href="Station.aspx">Station</a></li>
+                                    <li><a href="TrainStation.aspx">Train Stations</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-bar-chart"></i><span>Reports</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                                <ul>
+                                    <li><a href="todayreport.aspx">Today's Report</a></li>
+                                    <li><a href="monthlyreport.aspx">Monthly Report</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="change-pass.aspx"><i class="fa fa-key"></i><span>Change Password</span></a>
+                            </li>
+                            <li>
+                                <a href="logout.aspx"><i class="fa fa-power-off"></i><span>Log Out</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--slide bar menu end here-->
+            <script>
+                var toggle = true;
+
+                $(".sidebar-icon").click(function () {
+                    if (toggle) {
+                        $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+                        $("#menu span").css({ "position": "absolute" });
+                    }
+                    else {
+                        $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+                        setTimeout(function () {
+                            $("#menu span").css({ "position": "relative" });
+                        }, 400);
+                    }
+                    toggle = !toggle;
+                });
+            </script>
+            <!--scrolling js-->
+            <script src="js/jquery.nicescroll.js"></script>
+            <script src="js/scripts.js"></script>
+            <!--//scrolling js-->
+            <script src="js/bootstrap.js"> </script>
+            <!-- mother grid end here-->
+        </div>
+    </form>
+</body>
+</html>

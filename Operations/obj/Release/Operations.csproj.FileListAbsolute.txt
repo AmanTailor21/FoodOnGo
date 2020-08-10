@@ -1,0 +1,6 @@
+C:\Users\Keval\source\repos\FoodOnGo\Operations\bin\Release\Operations.dll
+C:\Users\Keval\source\repos\FoodOnGo\Operations\bin\Release\Operations.pdb
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Release\Operations.csprojAssemblyReference.cache
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Release\Operations.csproj.CoreCompileInputs.cache
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Release\Operations.dll
+C:\Users\Keval\source\repos\FoodOnGo\Operations\obj\Release\Operations.pdb

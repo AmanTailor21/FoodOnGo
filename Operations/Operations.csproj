@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D093E677-C283-4659-8785-9425940589CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Operations</RootNamespace>
+    <AssemblyName>Operations</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAL\FeedBAL.cs" />
+    <Compile Include="BAL\OrderBAL.cs" />
+    <Compile Include="BAL\AdminBAL.cs" />
+    <Compile Include="BAL\CartBAL.cs" />
+    <Compile Include="BAL\LoginBAL.cs" />
+    <Compile Include="BAL\RegisterBAL.cs" />
+    <Compile Include="BAL\TrainStationBAL.cs" />
+    <Compile Include="BAL\PayModeBAL.cs" />
+    <Compile Include="BAL\ItemBAL.cs" />
+    <Compile Include="BAL\StationBAL.cs" />
+    <Compile Include="BAL\TrainBAL.cs" />
+    <Compile Include="BAL\StateBAL.cs" />
+    <Compile Include="BAL\CityBAL.cs" />
+    <Compile Include="BAL\SubCategoryBAL.cs" />
+    <Compile Include="BAL\CategoryBAL.cs" />
+    <Compile Include="DAL\FeedDAL.cs" />
+    <Compile Include="DAL\OrderDAL.cs" />
+    <Compile Include="DAL\AdminDAL.cs" />
+    <Compile Include="DAL\CartDAL.cs" />
+    <Compile Include="DAL\CommonFunction.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\RegisterDAL.cs" />
+    <Compile Include="DAL\TrainStationDAL.cs" />
+    <Compile Include="DAL\PayModeDAL.cs" />
+    <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\StationDAL.cs" />
+    <Compile Include="DAL\TrainDAL.cs" />
+    <Compile Include="DAL\StateDAL.cs" />
+    <Compile Include="DAL\CategoryDAL.cs" />
+    <Compile Include="DAL\SQLHelper.cs" />
+    <Compile Include="DAL\CityDAL.cs" />
+    <Compile Include="DAL\SubCategoryDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
